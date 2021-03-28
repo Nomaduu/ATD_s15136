@@ -1,0 +1,3 @@
+db.people.find(
+  {birth_date: {$gte: '2001-01-01'}}
+)

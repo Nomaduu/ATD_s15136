@@ -1,0 +1,19 @@
+db.people.insertOne({
+  sex: 'Male',
+  first_name: 'Mikołaj',
+  last_name: 'Pykało',
+  job: 'PBI Developer',
+  email: 'mikolaj@gmail.com',
+  location: 
+   { city: 'Warsaw',
+     address: { streetname: 'Lipowa', streetnumber: '420' } },
+  description: 'Lubie placki',
+  height: '180.1',
+  weight: '76.1',
+  birth_date: '1997-03-30',
+  nationality: 'Poland',
+  credit: 
+   [ { type: 'switch',
+       number: '6759888939300098699',
+       currency: 'PLN',
+       balance: '1000000000000.1' } ] })
