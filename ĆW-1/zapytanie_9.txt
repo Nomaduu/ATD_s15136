@@ -1,4 +1,4 @@
-db.people.aggregate([
-   { $match: { first_name: "Antonio" } },
-   { $addFields: { hobby: "pingpong"} }
-])
+db.people.updateMany(
+   { first_name: "Antonio" },
+   { $set: { hobby: "pingpong"} }
+)
