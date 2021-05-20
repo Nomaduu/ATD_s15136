@@ -1,0 +1,2 @@
+MATCH (a:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(HugoWeavinsMovies)<-[:ACTED_IN]-(b:Person)
+RETURN a,HugoWeavinsMovies,b

@@ -1,0 +1,2 @@
+MATCH (movie:Movie {title: 'Capitian America: The First Avenger'})<-[*]-(people:Person)
+RETURN movie, people
