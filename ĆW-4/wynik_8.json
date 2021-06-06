@@ -1,0 +1,214 @@
+﻿[
+  {
+    "polaczenie": {
+"start": {
+"identity": 15,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 80,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 15,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 762,
+"start": 669,
+"end": 15,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 669,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 669,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 07:39:45",
+"duration": 40,
+"distance": 236,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 763,
+"start": 669,
+"end": 35,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 35,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 35,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAS"
+            }
+          },
+          "relationship": {
+"identity": 1748,
+"start": 17,
+"end": 35,
+"type": "CONNECTION",
+"properties": {
+"price": 1903.1999999999998
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 1885,
+"start": 18,
+"end": 17,
+"type": "CONNECTION",
+"properties": {
+"price": 353
+            }
+          },
+          "end": {
+"identity": 18,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 18,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1302,
+"start": 1101,
+"end": 18,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1101,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1101,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 1303,
+"start": 1101,
+"end": 80,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 80,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "koszt": 846
+  }
+]

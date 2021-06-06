@@ -1,0 +1,238 @@
+﻿[
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 309,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 309,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1243,
+"start": 1077,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1244,
+"start": 1077,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2079.0
+  }
+]

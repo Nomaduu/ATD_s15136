@@ -1,0 +1,1 @@
+MATCH (:Flight)-[r:ORIGIN]->(airport:Airport) RETURN airport,count(r) as amountOfDepartures ORDER BY amountOfDepartures

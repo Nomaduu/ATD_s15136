@@ -1,0 +1,7 @@
+MATCH polaczenie = (lotnisko1:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[*..4]-(:Flight)-[:DESTINATION]->(lotnisko2:Airport {name: "DAY"})
+RETURN polaczenie, reduce(
+    koszt = 0, 
+    lot IN [n IN nodes(polaczenie) WHERE 'Flight' IN labels(n)] |
+    koszt + [(lot)<-[:ASSIGN]-(bilet:Ticket {class: "business"}) | bilet.price][0]
+) as koszt
+ORDER BY koszt ASC LIMIT 1

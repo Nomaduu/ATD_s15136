@@ -1,0 +1,1 @@
+MATCH p=(start:town{ name: 'Darjeeling' })-[*]->(end:peak{ name: 'Sandakphu' }) WITH p, REDUCE(w=0,x IN relationships(p) | w+x.distance) AS distance RETURN p, distance ORDER BY distance

@@ -1,0 +1,156 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 11,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "MSN"
+        }
+      },
+"end": {
+"identity": 58,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "GRR"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 11,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSN"
+            }
+          },
+          "relationship": {
+"identity": 223,
+"start": 261,
+"end": 11,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 261,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 05:26:41",
+"duration": 30,
+"distance": 108,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 261,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 05:26:41",
+"duration": 30,
+"distance": 108,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 224,
+"start": 261,
+"end": 1294,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1294,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1294,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 948,
+"start": 841,
+"end": 1294,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 841,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/17/2015 16:11:47",
+"duration": 23,
+"distance": 137,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 841,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/17/2015 16:11:47",
+"duration": 23,
+"distance": 137,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 949,
+"start": 841,
+"end": 58,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 58,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "GRR"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "price": 196.5
+  }
+]

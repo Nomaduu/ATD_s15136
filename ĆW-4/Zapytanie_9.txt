@@ -1,0 +1,2 @@
+MATCH polaczenie = (lotnisko1:Airport)<-[:ORIGIN]-(lot:Flight)-[:DESTINATION]->(lotnisko2:Airport)
+    return lotnisko2, count(distinct lotnisko2)

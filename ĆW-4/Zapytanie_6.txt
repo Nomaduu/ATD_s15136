@@ -1,0 +1,4 @@
+MATCH p1 = (origin:Airport { name:"LAX" })<-[r:ORIGIN|DESTINATION*..6]->(destination:Airport  { name:"DAY" })
+RETURN p1,
+REDUCE(s = 0, n IN [x IN NODES(p1) WHERE 'Flight' IN LABELS(x)] | s + [(n)<-[:ASSIGN]-(ticket) | ticket.price][0]) as total
+ORDER BY total

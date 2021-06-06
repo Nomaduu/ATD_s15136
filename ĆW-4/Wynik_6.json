@@ -1,0 +1,7082 @@
+﻿[
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 309,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 309,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1243,
+"start": 1077,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1244,
+"start": 1077,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2079.0
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 309,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 309,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1228,
+"start": 1065,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1229,
+"start": 1065,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2079.0
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 309,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 309,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1228,
+"start": 1065,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1229,
+"start": 1065,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2081.25
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 309,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 309,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1243,
+"start": 1077,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1244,
+"start": 1077,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2081.25
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 629,
+"start": 585,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 628,
+"start": 585,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1228,
+"start": 1065,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1229,
+"start": 1065,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2166.75
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 629,
+"start": 585,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 628,
+"start": 585,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1243,
+"start": 1077,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1244,
+"start": 1077,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2166.75
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 629,
+"start": 585,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 628,
+"start": 585,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1243,
+"start": 1077,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1244,
+"start": 1077,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2169.0
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 629,
+"start": 585,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 628,
+"start": 585,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1228,
+"start": 1065,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1229,
+"start": 1065,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2169.0
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 309,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 309,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1233,
+"start": 1069,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1234,
+"start": 1069,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2229.0
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 309,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 309,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1238,
+"start": 1073,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1239,
+"start": 1073,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2229.0
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 309,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 309,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1233,
+"start": 1069,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1234,
+"start": 1069,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2231.25
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 309,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 309,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1238,
+"start": 1073,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1239,
+"start": 1073,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2231.25
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 34,
+"start": 109,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          },
+          "relationship": {
+"identity": 33,
+"start": 109,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1243,
+"start": 1077,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1244,
+"start": 1077,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2239.35
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 34,
+"start": 109,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          },
+          "relationship": {
+"identity": 33,
+"start": 109,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1228,
+"start": 1065,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1229,
+"start": 1065,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2239.35
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 34,
+"start": 109,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          },
+          "relationship": {
+"identity": 33,
+"start": 109,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1228,
+"start": 1065,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1065,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/11/2015 21:27:19",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1229,
+"start": 1065,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2241.6
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 34,
+"start": 109,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          },
+          "relationship": {
+"identity": 33,
+"start": 109,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1243,
+"start": 1077,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1077,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1244,
+"start": 1077,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2241.6
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 629,
+"start": 585,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 628,
+"start": 585,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1238,
+"start": 1073,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1239,
+"start": 1073,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2316.75
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 629,
+"start": 585,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 628,
+"start": 585,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1233,
+"start": 1069,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1234,
+"start": 1069,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2316.75
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 629,
+"start": 585,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 628,
+"start": 585,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1233,
+"start": 1069,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1234,
+"start": 1069,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2319.0
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 629,
+"start": 585,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 628,
+"start": 585,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1238,
+"start": 1073,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1239,
+"start": 1073,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2319.0
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 309,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 309,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1248,
+"start": 1081,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          },
+          "relationship": {
+"identity": 1249,
+"start": 1081,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2345.4
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 284,
+"start": 309,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 309,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 283,
+"start": 309,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1248,
+"start": 1081,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          },
+          "relationship": {
+"identity": 1249,
+"start": 1081,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2347.65
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 34,
+"start": 109,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          },
+          "relationship": {
+"identity": 33,
+"start": 109,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1233,
+"start": 1069,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1234,
+"start": 1069,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2389.35
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 34,
+"start": 109,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          },
+          "relationship": {
+"identity": 33,
+"start": 109,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1238,
+"start": 1073,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1239,
+"start": 1073,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2389.35
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 34,
+"start": 109,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          },
+          "relationship": {
+"identity": 33,
+"start": 109,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1238,
+"start": 1073,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1073,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/20/2015 16:07:37",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1239,
+"start": 1073,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2391.6
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 34,
+"start": 109,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          },
+          "relationship": {
+"identity": 33,
+"start": 109,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1233,
+"start": 1069,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1069,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 600,
+"date": "11/16/2015 11:51:32",
+"duration": 79,
+"distance": 574,
+"firstClassPrice": 720.0,
+"airline": "20304",
+"economyPrice": 450.0
+            }
+          },
+          "relationship": {
+"identity": 1234,
+"start": 1069,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2391.6
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 629,
+"start": 585,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 628,
+"start": 585,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1248,
+"start": 1081,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          },
+          "relationship": {
+"identity": 1249,
+"start": 1081,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2433.15
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 629,
+"start": 585,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 585,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 351,
+"date": "11/29/2015 00:28:08",
+"duration": 52,
+"distance": 334,
+"firstClassPrice": 421.2,
+"airline": "19977",
+"economyPrice": 263.25
+            }
+          },
+          "relationship": {
+"identity": 628,
+"start": 585,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1248,
+"start": 1081,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          },
+          "relationship": {
+"identity": 1249,
+"start": 1081,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2435.4
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 74,
+"start": 141,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 141,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1821,
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"firstClassPrice": 2185.2,
+"airline": "19977",
+"economyPrice": 1365.75
+            }
+          },
+          "relationship": {
+"identity": 73,
+"start": 141,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 34,
+"start": 109,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          },
+          "relationship": {
+"identity": 33,
+"start": 109,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1248,
+"start": 1081,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          },
+          "relationship": {
+"identity": 1249,
+"start": 1081,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2505.75
+  },
+  {
+    "p1": {
+"start": {
+"identity": 1282,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 60,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 1282,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 714,
+"start": 653,
+"end": 1282,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 653,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 1824,
+"date": "11/29/2015 07:19:35",
+"duration": 241,
+"distance": 1744,
+"firstClassPrice": 2188.7999999999997,
+"airline": "19977",
+"economyPrice": 1368.0
+            }
+          },
+          "relationship": {
+"identity": 713,
+"start": 653,
+"end": 1284,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1284,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 34,
+"start": 109,
+"end": 1284,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 109,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 353,
+"date": "11/30/2015 21:43:26",
+"duration": 57,
+"distance": 334,
+"firstClassPrice": 423.59999999999997,
+"airline": "19977",
+"economyPrice": 264.75
+            }
+          },
+          "relationship": {
+"identity": 33,
+"start": 109,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1285,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1248,
+"start": 1081,
+"end": 1285,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1081,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"businessPrice": 597,
+"date": "11/23/2015 09:37:48",
+"duration": 70,
+"distance": 574,
+"firstClassPrice": 716.4,
+"airline": "20304",
+"economyPrice": 447.75
+            }
+          },
+          "relationship": {
+"identity": 1249,
+"start": 1081,
+"end": 60,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 60,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 6.0
+    },
+    "total": 2508.0
+  }
+]
