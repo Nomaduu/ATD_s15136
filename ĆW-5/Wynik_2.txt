@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvhdee34/RCiRKY+VIV7O8BZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15136>; rel="up"
+Last-Modified: Sun, 06 Jun 2021 10:30:22 GMT
+ETag: "1s4F3J569sLe8ZQL2DkYWq"
+Date: Sun, 06 Jun 2021 10:31:30 GMT
+Content-Type: application/json
+Content-Length: 78
+
+{'name': 'Ibram Gaunt', 'nationality': 'Imperial', 'age':'39', 'medals': '12'}

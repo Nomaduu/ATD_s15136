@@ -1,0 +1,33 @@
+1.
+curl –XPUT -H "Content-Type: application/json" -d "{'name': 'Ibram Gaunt', 'nationality': 'Imperial', 'age':'39', 'medals': '12'}"  http://localhost:8098/buckets/s15136/keys/Gaunt
+curl –XPUT -H "Content-Type: application/json" -d "{'name': 'Rawne', 'nationality': 'Imperial', 'age':'28', 'medals': '5'}"  http://localhost:8098/buckets/s15136/keys/Rawne
+curl –XPUT -H "Content-Type: application/json" -d "{'name': 'Caffran', 'nationality': 'Imperial', 'age':'24', 'medals': '2'}"  http://localhost:8098/buckets/s15136/keys/Caffran
+curl –XPUT -H "Content-Type: application/json" -d "{'name': 'Larkin', 'nationality': 'Imperial', 'age':'38', 'medals': '4'}"  http://localhost:8098/buckets/s15136/keys/Larkin
+curl –XPUT -H "Content-Type: application/json" -d "{'name': 'Corbec', 'nationality': 'Imperial', 'age':'35', 'medals': '3'}"  http://localhost:8098/buckets/s15136/keys/Corbec
+
+2.
+curl -i -XGET http://localhost:8098/buckets/s15136/keys/Gaunt
+
+3.
+curl -i –XPUT -H "Content-Type: application/json" -d "{'name': 'Ibram Gaunt', 'nationality': 'Imperial', 'age':'39', 'medals': '12', 'rank': 'Commander Commisar'}" http://localhost:8098/buckets/s15136/keys/Gaunt
+
+4.
+curl -i -XPUT -H "Content-Type: application/json" -d "{'name': 'Ibram Gaunt', 'nationality': 'Imperial', 'age':'39', 'medals': '12'}"  http://localhost:8098/buckets/s15136/keys/Gaunt
+
+5.
+curl -i -XPUT -H "Content-Type: application/json" -d "{'name': 'Ibram Gaunt', 'nationality': 'Imperial', 'age':'39', 'medals': '22'}"  http://localhost:8098/buckets/s15136/keys/Gaunt
+
+6.
+curl -i -XDELETE http://localhost:8098/buckets/s15136/keys/Corbec
+
+7.
+curl -i -XGET  http://localhost:8098/buckets/s15136/keys/Emperor
+
+8.
+curl -i -XPOST -H "Content-Type: application/json" -d "{'text': 'tekst'}" http://localhost:8098/buckets/s15136/keys
+
+9.
+curl -i -XGET  http://localhost:8098/buckets/s15136/keys/FQTG63yEgy2Asf2PfT4K1CNoL51
+
+10.
+curl -i -XDELETE http://localhost:8098/buckets/s15136/keys/FQTG63yEgy2Asf2PfT4K1CNoL51
