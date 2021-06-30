@@ -1,34 +1,64 @@
-HTTP/1.1 204 No Content
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvhdztRAEspkymBKZ81gZFusG3uLLAgA=
 Vary: Accept-Encoding
 Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
-Date: Sun, 06 Jun 2021 10:20:12 GMT
+Link: </buckets/s15136>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 18:02:11 GMT
+ETag: "VZOcqhuZmaCiH4xqzYwur"
+Date: Wed, 30 Jun 2021 18:02:17 GMT
 Content-Type: application/json
-Content-Length: 0
+Content-Length: 78
 
-HTTP/1.1 204 No Content
-Vary: Accept-Encoding
-Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
-Date: Sun, 06 Jun 2021 10:23:34 GMT
-Content-Type: application/json
-Content-Length: 0
+{'name': 'Ibram Gaunt', 'nationality': 'Imperial', 'age':'39', 'medals': '12'}
 
-HTTP/1.1 204 No Content
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvhfzYEsGspkymBKZ8lgZPPQCb/FlAQA=
 Vary: Accept-Encoding
 Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
-Date: Sun, 06 Jun 2021 10:26:19 GMT
+Link: </buckets/s15136>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 18:04:56 GMT
+ETag: "5VpmUQjRIphhZS3bbZpAx7"
+Date: Wed, 30 Jun 2021 18:07:02 GMT
 Content-Type: application/json
-Content-Length: 0
+Content-Length: 71
 
-HTTP/1.1 204 No Content
-Vary: Accept-Encoding
-Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
-Date: Sun, 06 Jun 2021 10:27:15 GMT
-Content-Type: application/json
-Content-Length: 0
+{'name': 'Rawne', 'nationality': 'Imperial', 'age':'28', 'medals': '5'}
 
-HTTP/1.1 204 No Content
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvhdz97gFZDNlMCUy5bEysOgH3uLLAgA=
 Vary: Accept-Encoding
 Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
-Date: Sun, 06 Jun 2021 10:28:26 GMT
+Link: </buckets/s15136>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 18:08:04 GMT
+ETag: "7PftwJLijY8Do8bDgT5P3m"
+Date: Wed, 30 Jun 2021 18:08:09 GMT
 Content-Type: application/json
-Content-Length: 0
+Content-Length: 73
+
+{'name': 'Caffran', 'nationality': 'Imperial', 'age':'24', 'medals': '2'}
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvhdzW7UOyGbKYEpkymNl8NYPvMWXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15136>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 18:09:15 GMT
+ETag: "7iDSV9bWc6PIGfx9PBKgz2"
+Date: Wed, 30 Jun 2021 18:09:20 GMT
+Content-Type: application/json
+Content-Length: 72
+
+{'name': 'Larkin', 'nationality': 'Imperial', 'age':'38', 'medals': '4'}
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvhdzW6YKZDNlMCUy5bEypOgH3uLLAgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15136>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 18:09:40 GMT
+ETag: "3WN42dk1A9oSupI0V5IWua"
+Date: Wed, 30 Jun 2021 18:09:48 GMT
+Content-Type: application/json
+Content-Length: 72
+
+{'name': 'Corbec', 'nationality': 'Imperial', 'age':'35', 'medals': '3'}
